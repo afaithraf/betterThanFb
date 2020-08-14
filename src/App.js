@@ -13,7 +13,7 @@ import Profile from './pages/Profile';
 import Register from './pages/Register';
 
 
-export const App = () => (
+const App = () => (
   <Router>
     <div>
       <ul>
@@ -47,3 +47,5 @@ export const App = () => (
     </div>
   </Router>
 );
+
+export default App;
